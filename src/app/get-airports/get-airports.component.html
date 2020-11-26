@@ -1,14 +1,7 @@
 <p>get-airports works!</p>
 
-<ul class="row">
-  <li *ngFor="let port of airport; index as i;">{{port + " " + i}}</li>
-</ul>
-
-
-
-
-
-
-
-
-
+<div class="container">
+  <div class="item" *ngFor="let port of airport; index as i;">
+    <app-airport [airport]="port"></app-airport>
+  </div>
+</div>

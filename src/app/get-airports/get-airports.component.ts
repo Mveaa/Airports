@@ -24,5 +24,28 @@ export class GetAirportsComponent implements OnInit {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 /*serwis zwraca observable, subscribe dodaje funkcje z kontekstem*/
