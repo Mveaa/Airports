@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {AirportService} from '../services/airport.service';
+import {AirportService} from '../../../services/airport.service';
 
 @Component({
   selector: 'app-get-airports',
